@@ -58,3 +58,19 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 - Leia novamente este documento
 
 
+
+
+
+# Documentação do Trabalho
+
+#### Entregas e Correção
+- Todas as entregas deverão ser feitas através de um repositório GIT criado pelo aluno
+- A correção será feita em horário de aula entre aluno e professor
+
+#### Entrega Final
+- A entrega final deverá ser feita no **dia 29/10/2024**
+- **HORÁRIO MÁXIMO** de entrega **19h20**
+- Deverá ser enviado e-mail com o **assunto** *Avaliação LPWEBII - Tuma A - Projeto Cafeteria (nome do seu projeto)*
+- Entrega fora do horário ou a não entrega, a nota será a soma das entregas feitas até o dia 29/10/2024 às 18h59.
+
+## Calendário
