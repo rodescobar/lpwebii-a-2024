@@ -9,7 +9,7 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 - A nota final será de no máximo 10 pontos
 - Estes pontos serão divididos em:
 
-1. Avaliação ao final do Semestre
+### 1. Avaliação ao final do Semestre
 - Nota máxima 5,00 pontos
 - Data da avaliação a ser definida
 - Quem define a data da avaliação é a ITE e será postada no calendário da ITE
@@ -21,7 +21,7 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
   - A prova deverá ser transcrita a tinta para folha de prova
 
 
-2. Avaliação durante o Semestre
+### 2. Avaliação durante o Semestre
 - Nota máxima 5,00 pontos
 - A avaliação será feita na forma de trabalho
 - INDIVIDUAL
