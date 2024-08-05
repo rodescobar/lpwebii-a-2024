@@ -68,10 +68,10 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 - A correção será feita em horário de aula entre aluno e professor
 
 #### Entrega Final
-- A entrega final deverá ser feita no **dia 29/10/2024**
+- A entrega final deverá ser feita no **dia 01/11/2024**
 - **HORÁRIO MÁXIMO** de entrega **19h20**
-- Deverá ser enviado e-mail com o **assunto** *Avaliação LPWEBII - Tuma A - Projeto Cafeteria (nome do seu projeto)*
-- Entrega fora do horário ou a não entrega, resultará na nota final sendo a soma das entregas feitas até o dia 29/10/2024 às 18h59.
+- Deverá ser enviado e-mail com o **assunto** *Avaliação LPWEBII - Tuma B - Projeto Cafeteria (nome do seu projeto)*
+- Entrega fora do horário ou a não entrega, resultará na nota final sendo a soma das entregas feitas até o dia 01/11/2024 às 18h59.
 
 ## Calendário
 ![Calendário](calendario/tabela.png)
