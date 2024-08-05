@@ -74,3 +74,4 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 - Entrega fora do horário ou a não entrega, resultará na nota final sendo a soma das entregas feitas até o dia 29/10/2024 às 18h59.
 
 ## Calendário
+![Calendário](calendario/tabela.png)
