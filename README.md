@@ -75,3 +75,6 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 
 ## Calendário
 ![Calendário](calendario/tabela.png)
+
+## Outros materiais
+[Drive](https://drive.google.com/drive/folders/1UGSLJfwW-U2OIks-HUKDeGNACRsldsyA?usp=sharing)
