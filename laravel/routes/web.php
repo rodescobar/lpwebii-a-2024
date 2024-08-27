@@ -14,17 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
               
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/nelson', function() {
-    echo "Nelson da Silva";
-});
-
-Route::get('/clientes', function() {
-    echo "Clientes";
-});
-
-Route::get('/produtos', function() {
-    echo "Produtos";
+    return view('layout_site.index');
 });
