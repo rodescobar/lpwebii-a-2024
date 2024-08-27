@@ -78,3 +78,7 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 
 ## Outros materiais
 [Drive](https://drive.google.com/drive/folders/1UGSLJfwW-U2OIks-HUKDeGNACRsldsyA?usp=sharing)
+
+## Aula 03 - 27/08/2024
+- (Rotas no Laravel)[https://laravel.com/docs/11.x/structure#the-routes-directory]
+- (Layout no Laravel)[https://laravel.com/docs/11.x/blade#extending-a-layout]
