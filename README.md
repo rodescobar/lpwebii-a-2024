@@ -82,3 +82,10 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 ## Aula 03 - 27/08/2024
 - (Rotas no Laravel)[https://laravel.com/docs/11.x/structure#the-routes-directory]
 - (Layout no Laravel)[https://laravel.com/docs/11.x/blade#extending-a-layout]
+
+## Aula 04 - 03/09/2024
+- [Authorization](https://laravel.com/docs/11.x/starter-kits)
+- [Migration](https://laravel.com/docs/11.x/migrations#main-content)
+- [Seed](https://laravel.com/docs/11.x/seeding#running-seeders)
+- [Model](https://laravel.com/docs/11.x/eloquent#table-names)
+- [Controller](https://laravel.com/docs/11.x/controllers#main-content)
