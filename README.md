@@ -89,3 +89,11 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 - [Seed](https://laravel.com/docs/11.x/seeding#running-seeders)
 - [Model](https://laravel.com/docs/11.x/eloquent#table-names)
 - [Controller](https://laravel.com/docs/11.x/controllers#main-content)
+
+## Aula 05 - 10/09/2024 - Exercício
+- Utilizando o conteúdo ministrado na Aula 03, crie um novo projeto em Laravel para simular uma área administrativa.
+  - Você deverá criar 5 rotas simulando o acesso à 5 áreas de seu Admin
+  - Não é necessário criar Controller, ou seja, a rota pode chamar diretamente a View
+  - Você deverá criar os 5 links do menu ao lado esquerdo
+  - Você deverá utilizar o conceito de template
+  - Você deverá utilizar o template deste [link](https://coreui.io/product/free-bootstrap-admin-template/)
