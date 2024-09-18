@@ -1,0 +1,65 @@
+- Cadastro
+	- Categorias
+	- Produtos
+
+Monitor -> Informatica
+Meia Calça -> Roupas
+
+
+CRUD: Categoria
+	- Template OK
+	- Models / Migrations OK
+	- Controllers
+	- Rotas
+		- Buscar
+		- Criar
+		- Alterar
+		- Excluir
+	- Views
+
+
+
+
+
+
+App/Models => Fica somente User.php
+App/Http/Controllers => Fica somente Controller.php
+Database/Migrations => Oq inicar com 2024 apaga
+Resources/Views
+	=> Apaga tudo
+		
+
+composer install
+
+
+
+Tabela Categoria:
+ id -> PK -> autoincremento OK
+ cat_nome -> Varchar(30) OK
+ cat_ativo -> Boolean ->default(1)
+
+Console: php artisan make:migration create_categoria_table
+
+Console: php artisan migrate
+
+Console: php artisan make:model Categoria
+
+Console: php artisan make:controller CategoriaController
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
