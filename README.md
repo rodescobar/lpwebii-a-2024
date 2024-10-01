@@ -97,3 +97,25 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
   - Você deverá criar os 5 links do menu ao lado esquerdo
   - Você deverá utilizar o conceito de template
   - Você deverá utilizar o template deste [link](https://coreui.io/product/free-bootstrap-admin-template/)
+
+## Aula 07 - 24/09/2024
+- Finalização de CRUD categoria
+
+## Aula 09 - 01/10/2024
+- Utilizando o seu projeto crie o primeiro CRUD para uma tabela.
+- Lembrando:
+  - Criação de migration (caso você ainda não possua o bando de dados) 
+  
+  ``php artisan create:migration create_<NOME_TABELA>_table`` 
+
+  - Criação de model
+
+  ``php artisan create:model <NOME_DA_TABELA>``
+
+  - Criação do controller
+
+  ``php artisan create:controller <NOME_DA_TABELA>Controller``
+
+  - Criação das views
+
+  ``php artisan create:view <NOME_DA_VIEW>``
