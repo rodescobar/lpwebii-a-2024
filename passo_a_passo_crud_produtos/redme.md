@@ -1,15 +1,7 @@
-Aqui está o conteúdo formatado no padrão `README.md` para você adicionar ao seu repositório Git:
-
 ```md
 # Laravel 11 - CRUD de Produtos com Relacionamento a Categorias
 
 Este projeto implementa um CRUD para a tabela `produtos`, que se relaciona com a tabela `categorias` no Laravel 11. Abaixo estão as instruções para criação das migrations, models e controller, seguindo as boas práticas do framework.
-
-## Requisitos
-
-- Laravel 11
-- PHP 8.x
-- Banco de dados configurado
 
 ## Estrutura das Tabelas
 
@@ -223,8 +215,6 @@ Route::resource('produtos', ProdutoController::class);
 
 ## Views
 
-Para completar o CRUD, crie as seguintes views no diretório `resources/views/produtos`:
-
 1. **index.blade.php**: Exibe a lista de produtos.
 2. **create.blade.php**: Formulário para criação de novo produto.
 3. **edit.blade.php**: Formulário para editar produto.
@@ -272,9 +262,6 @@ Exemplo básico da view `index.blade.php`:
 @endsection
 ```
 
-## Finalizando
-
-Agora você tem o CRUD completo para a tabela `produtos` com o relacionamento de categoria. Execute o projeto com:
 
 ```bash
 php artisan serve
@@ -282,9 +269,3 @@ php artisan serve
 
 E acesse a rota `/produtos` para visualizar a lista de produtos.
 
----
-
-**Nota**: Este projeto usa Bootstrap para o layout das views. Ajuste conforme necessário para atender às suas preferências de design.
-```
-
-Esse arquivo README vai ajudar a documentar a implementação do CRUD com o relacionamento entre `categoria` e `produto`.
