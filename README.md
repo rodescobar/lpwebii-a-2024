@@ -119,3 +119,7 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
   - Criação das views
 
   ``php artisan create:view <NOME_DA_VIEW>``
+
+## Aula 10 - 08/10/2024
+- Criação do CRUD de produtos, com relacionamento entre tabelas
+[MATERIAL](passo_a_passo_crud_produtos/readme.md)
