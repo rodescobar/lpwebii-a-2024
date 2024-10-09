@@ -123,3 +123,6 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 ## Aula 10 - 08/10/2024
 - Criação do CRUD de produtos, com relacionamento entre tabelas
 [MATERIAL](Aula10)
+
+- Entrega do dia 15/10/2024 adiada para entrega do dia 22/10/2024
+ - Sim deverá ser entregue tudo junto

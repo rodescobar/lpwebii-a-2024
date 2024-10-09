@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriaController;
+use App\Http\Controllers\ProdutoController;
 
 Route::get('/', function() {
     return view('admin_layout.index');
@@ -17,3 +18,10 @@ Route::get("/categoria/upd/{id}",
 Route::post('/categoria', [ CategoriaController::class, 'IncluirCategoria' ]);
 Route::post('/categoria/upd', [ CategoriaController::class, 'ExecutaAlteracao' ]);
 
+Route::get('/produtos',
+    [ProdutoController::class,'index']
+)->name('produtos_index');
+
+Route::post('/produtos',
+    [ProdutoController::class,'salvarNovoProduto']
+)->name('novo_produto');

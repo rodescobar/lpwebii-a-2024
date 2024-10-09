@@ -2,15 +2,15 @@
 
 @section('admin_template')
     <div class="container-fluid px-4">
-        <h1 class="mt-4">Categorias</h1>
+        <h1 class="mt-4">Produtos</h1>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item active">categorias</li>
+            <li class="breadcrumb-item active">produtos</li>
         </ol>
 
         <div class="card mb-4">
             <div class="card-header">
                 <i class="fas fa-table me-1"></i>
-                Lista de catgorias
+                Lista de produtos
             </div>
             <div class="card-body">
                 <div class="row">
@@ -27,14 +27,16 @@
                         <th>ID</th>
                         <th>Nome</th>
                         <th>Descrição</th>
+                        <th>Categoria</th>
                         <th>Opções</th>
                     </thead>
                     <tbody>
-                        @foreach ($categorias as $linha)
+                        @foreach ($produtos as $linha)
                             <tr>
                                 <td>{{ $linha->id }}</td>
-                                <td>{{ $linha->cat_nome }}</td>
-                                <td>{{ $linha->cat_descricao }}</td>
+                                <td>{{ $linha->prod_nome }}</td>
+                                <td>{{ $linha->prod_descricao }}</td>
+                                <td>{{ $linha->categoria->cat_nome }}</td>
                                 <td>
                                     <a href='{{ route('categoria_upd', ['id' => $linha->id]) }}' class='btn btn-success'>
                                         <li class='fa fa-pencil'></li>
@@ -56,25 +58,46 @@
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <form method="POST" action="/categoria">
+                        <form method="POST" action="{{ route('novo_produto') }}">
                             @csrf
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Nova categoria</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Novo produto</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="cat_nome" name="cat_nome"
-                                        placeholder="Digite o nome da categoria">
+                                    <select class="form-select" 
+                                            aria-label="Default select example" 
+                                            id="cat_id"
+                                            name="cat_id"
+                                    >
+                                        @foreach($categorias as $item)
+                                            <option value="{{ $item->id }}">{{ $item->cat_nome }}</option>
+                                        @endforeach
+                                    </select>
                                     <label for="floatingInput">Categoria</label>
                                 </div>
 
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control" id="cat_descricao" name="cat_descricao"
+                                    <input type="text" class="form-control" id="prod_nome" name="prod_nome"
+                                        placeholder="Digite o nome do produto">
+                                    <label for="floatingInput">Nome do produto</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="prod_descricao" name="prod_descricao"
                                         placeholder="Digite ">
                                     <label for="floatingInput">Descrição</label>
                                 </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="prod_quantidade" name="prod_quantidade"
+                                        placeholder="Digite ">
+                                    <label for="floatingInput">Quantidade</label>
+                                </div>
+
+
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
