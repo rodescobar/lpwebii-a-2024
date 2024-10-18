@@ -76,6 +76,11 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 ## Calendário
 ![Calendário](calendario/tabela.png)
 
+### Observações
+- Entrega do dia 17/09/2024 foi cancelada os pontos serão redistribuídos após apresentação final.
+- Entrega do dia 22/10/2024 alterada para ser feita juntamente com a entrega do dia 25/10/2024
+
+
 ## Outros materiais
 [Drive](https://drive.google.com/drive/folders/1UGSLJfwW-U2OIks-HUKDeGNACRsldsyA?usp=sharing)
 
@@ -122,4 +127,14 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 
 ## Aula 10 - 08/10/2024
 - Criação do CRUD de produtos, com relacionamento entre tabelas
+
 [MATERIAL](Aula10)
+
+## Aula 11 - 15/10/2024
+- Cancelada pela ITE
+
+## Aula 12 - 22/10/2024
+- Autenticação de usuários
+- Rotas seguras (acesso somente de usuários que fizeram login)
+
+[MATERIAL](Aula12)
