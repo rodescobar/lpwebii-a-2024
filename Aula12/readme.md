@@ -2,6 +2,9 @@
 
 Este projeto implementa um sistema de autenticação simples no Laravel 11 sem o uso de pacotes front-end como Vue, Breeze ou Jetstream.
 
+### Observação:
+- Este procedimento só irá funcionar, caso você possua a migration_users criada por default no projeto
+
 ## Configuração da Autenticação Manual
 
 ### 1. Criação do Controller
