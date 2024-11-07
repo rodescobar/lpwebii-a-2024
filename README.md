@@ -138,3 +138,28 @@ A disciplina será dividida em módulos, iremos trabalhar com pequenos blocos em
 - Rotas seguras (acesso somente de usuários que fizeram login)
 
 [MATERIAL](Aula12)
+
+
+
+# IMPORTANTE
+Devido a TecnoITE marcada para o dia 12/11/2024 as entregas dos trabalhos não poderão ser finalizadas para os alunos das fileiras 4 e 5, conforme combinado em 05/11/2024.
+
+
+Para a entrega, solicito que gravem um vídeo com o funcionamento da aplicação criada por vocês e me enviem o link até o dia 19/11/2024, lembrando que:
+
+
+Só aceitarei os trabalhos que estão no GIT com data de entrega até dia 29/10/2024 às 20h.
+- Lembrando:
+  - 19/11/2024: Entrega do link do vídeo com o trabalho para os alunos das fileiras 4 e 5.
+    - Avaliação bimestral REGIMENTAL e escrita.
+		- Conteúdo:
+
+    - **Para alunos que fizeram o trabalho:** perguntas relacionadas sobre o trabalho, poderá ser utilizado o GIT para consulta ao seu trabalho.
+    - **Para alunos que não entregaram o trabalho:** perguntas e código sobre LARAVEL. Individual, sem consulta, sem internet, com uso do PC da ITE.
+
+  - 03/12/2024: Avaliação substitutiva
+    - Para alunos que não entregaram o trabalho ou não fizeram a avaliação regimental.
+		- Conteúdo:
+			- Laravel.
+			- Individual, sem consulta, sem internet, com uso do PC da ITE.
+
